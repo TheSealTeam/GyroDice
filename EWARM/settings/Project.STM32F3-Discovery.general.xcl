@@ -1,0 +1,15 @@
+"F:\IAR Systems\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"F:\IAR Systems\Embedded Workbench 7.5\arm\bin\armstlink2.dll" 
+
+"F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Exe\STM32F3-Discovery.out" 
+
+--plugin "F:\IAR Systems\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--device_macro "F:\IAR Systems\Embedded Workbench 7.5\arm\config\debugger\ST\STM32F3xx.dmac" 
+
+--flash_loader "F:\IAR Systems\Embedded Workbench 7.5\arm\config\flashloader\ST\FlashSTM32F3xxxC.board" 
+
+
+
+

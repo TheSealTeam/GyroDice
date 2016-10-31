@@ -1,0 +1,456 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                26/Oct/2016  19:05:57
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Exe\STM32F3-Discovery.out
+#    Map file     =  
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\List\STM32F3-Discovery.map
+#    Command line =  
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\accelerometerTest.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\gyroscopeTest.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\l3gd20.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\lsm303dlhc.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\main.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\mems.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\startup_stm32f303xc.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3_discovery.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3_discovery_accelerometer.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3_discovery_gyroscope.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_cortex.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_dma.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_gpio.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_i2c.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_i2c_ex.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_rcc.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_rcc_ex.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_rtc.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_rtc_ex.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_hal_spi.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\stm32f3xx_it.o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj\system_stm32f3xx.o
+#        -o
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Exe\STM32F3-Discovery.out
+#        --map
+#        F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\List\STM32F3-Discovery.map
+#        --config "F:\IAR Systems\Embedded Workbench
+#        7.5\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20009fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32f303xc.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x23c4
+  .text              ro code  0x08000188   0x682  stm32f3xx_hal_i2c.o [1]
+  .text              ro code  0x0800080a     0x2  stm32f3xx_hal_i2c.o [1]
+  .text              ro code  0x0800080c     0xc  stm32f3xx_hal.o [1]
+  .text              ro code  0x08000818   0x53d  stm32f3_discovery.o [1]
+  .text              ro code  0x08000d58   0x1c4  stm32f3xx_hal_gpio.o [1]
+  .text              ro code  0x08000f1c    0xc0  stm32f3xx_hal_cortex.o [1]
+  .text              ro code  0x08000fdc   0x494  stm32f3xx_hal_spi.o [1]
+  .text              ro code  0x08001470   0x1ca  main.o [1]
+  .text              ro code  0x0800163a     0x2  stm32f3xx_hal_spi.o [1]
+  .text              ro code  0x0800163c    0x26  stm32f3xx_hal.o [1]
+  .text              ro code  0x08001664   0x4ac  stm32f3xx_hal_rcc.o [1]
+  .text              ro code  0x08001b10    0x18  stm32f3xx_hal.o [1]
+  .text              ro code  0x08001b28    0x2c  stm32f3xx_hal.o [1]
+  .text              ro code  0x08001b54   0x244  l3gd20.o [1]
+  .text              ro code  0x08001d98   0x1cc  mems.o [1]
+  .text              ro code  0x08001f64    0x40  stm32f3_discovery_accelerometer.o [1]
+  .text              ro code  0x08001fa4    0x50  stm32f3_discovery_gyroscope.o [1]
+  .text              ro code  0x08001ff4   0x1b0  lsm303dlhc.o [1]
+  .text              ro code  0x080021a4    0x7c  system_stm32f3xx.o [1]
+  .text              ro code  0x08002220    0x78  lz77_init_single.o [5]
+  .text              ro code  0x08002298    0x30  iarttio.o [6]
+  .text              ro code  0x080022c8     0x8  XShttio.o [3]
+  .text              ro code  0x080022d0    0x28  data_init.o [5]
+  .text              ro code  0x080022f8    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x0800231c    0x10  - Linker created -
+  .text              ro code  0x0800232c    0x1a  stm32f3xx_it.o [1]
+  .text              ro code  0x08002348    0x10  stm32f3xx_hal.o [1]
+  .text              ro code  0x08002358    0x1a  cmain.o [5]
+  .text              ro code  0x08002372     0x4  low_level_init.o [3]
+  .text              ro code  0x08002376     0x4  exit.o [3]
+  .text              ro code  0x0800237c     0xa  cexit.o [5]
+  .text              ro code  0x08002388    0x14  exit.o [6]
+  .text              ro code  0x0800239c    0x10  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023ac     0xc  cstartup_M.o [5]
+  .text              ro code  0x080023b8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023bc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023c0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023c4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023c8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023cc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023d0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023d4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023d8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023dc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023e0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023e4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023e8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023ec     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023f0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023f4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023f8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080023fc     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002400     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002404     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002408     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800240c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002410     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002414     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002418     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800241c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002420     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002424     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002428     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800242c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002430     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002434     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002438     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800243c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002440     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002444     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002448     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800244c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002450     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002454     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002458     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800245c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002460     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002464     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002468     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800246c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002470     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002474     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002478     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800247c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002480     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002484     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002488     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800248c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002490     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002494     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x08002498     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x0800249c     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080024a0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080024a4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080024a8     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080024ac     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080024b0     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080024b4     0x4  startup_stm32f303xc.o [1]
+  .text              ro code  0x080024b8     0x4  startup_stm32f303xc.o [1]
+  .rodata            const    0x080024bc     0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x080024bc    0x90  <for P2-1>
+                            - 0x0800254c  0x23c4
+
+"P2", part 1 of 2:                         0x1dc
+  P2-1                        0x20000000   0x1dc  <Init block>
+    .data            inited   0x20000000    0x34  l3gd20.o [1]
+    .data            inited   0x20000034    0x34  lsm303dlhc.o [1]
+    .data            inited   0x20000068    0x7c  main.o [1]
+    .data            inited   0x200000e4    0x20  stm32f3_discovery.o [1]
+    .data            inited   0x20000104     0x4  stm32f3_discovery.o [1]
+    .data            inited   0x20000108    0x68  stm32f3_discovery.o [1]
+    .data            inited   0x20000170    0x50  stm32f3_discovery.o [1]
+    .data            inited   0x200001c0     0x4  system_stm32f3xx.o [1]
+    .data            inited   0x200001c4     0x8  XShttio.o [3]
+    .bss             inited   0x200001cc     0x4  stm32f3_discovery_accelerometer.o [1]
+    .bss             inited   0x200001d0     0x4  stm32f3_discovery_gyroscope.o [1]
+    .bss             inited   0x200001d4     0x4  stm32f3xx_hal.o [1]
+    .data            inited   0x200001d8     0x4  mems.o [1]
+                            - 0x200001dc   0x1dc
+
+"P2", part 2 of 2:                        0x2000
+  CSTACK                      0x200001e0  0x2000  <Block>
+    CSTACK           uninit   0x200001e0  0x2000  <Block tail>
+                            - 0x200021e0  0x2000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x90 (30% of destination):
+          0x080024bc   0x90
+    1 destination range, total size 0x1dc:
+          0x20000000  0x1dc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                             ro code  ro data  rw data
+    ------                             -------  -------  -------
+F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj: [1]
+    l3gd20.o                               580       15       52
+    lsm303dlhc.o                           432       16       52
+    main.o                                 458       37      124
+    mems.o                                 460        2        4
+    startup_stm32f303xc.o                  668
+    stm32f3_discovery.o                  1 341       67      220
+    stm32f3_discovery_accelerometer.o       64        1        4
+    stm32f3_discovery_gyroscope.o           80        1        4
+    stm32f3xx_hal.o                        134        1        4
+    stm32f3xx_hal_cortex.o                 192
+    stm32f3xx_hal_gpio.o                   452
+    stm32f3xx_hal_i2c.o                  1 668
+    stm32f3xx_hal_rcc.o                  1 196
+    stm32f3xx_hal_spi.o                  1 174
+    stm32f3xx_it.o                          26
+    system_stm32f3xx.o                     124        1        4
+    ------------------------------------------------------------
+    Total:                               9 049      141      468
+
+command line: [2]
+    ------------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    XShttio.o                                8        3        8
+    exit.o                                   4
+    low_level_init.o                         4
+    ------------------------------------------------------------
+    Total:                                  16        3        8
+
+m7M_tls.a: [4]
+    fpinit_M.o                              34
+    ------------------------------------------------------------
+    Total:                                  34
+
+rt7M_tl.a: [5]
+    cexit.o                                 10
+    cmain.o                                 26
+    cstartup_M.o                            12
+    data_init.o                             40
+    lz77_init_single.o                     120
+    ------------------------------------------------------------
+    Total:                                 208
+
+shb_l.a: [6]
+    exit.o                                  20
+    iarttio.o                               48
+    ------------------------------------------------------------
+    Total:                                  68
+
+    Gaps                                    11        2
+    Linker created                                   16    8 192
+----------------------------------------------------------------
+    Grand Total:                         9 386      162    8 668
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0800231c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800232c          --   Gb  - Linker created -
+?main                   0x08002359         Code  Gb  cmain.o [5]
+ACCELERO_MEMS_Test      0x08001d99   0x20  Code  Gb  mems.o [1]
+ACCELERO_ReadAcc        0x08001db9   0x9e  Code  Lc  mems.o [1]
+AHBPrescTable           0x08002210   0x10  Data  Gb  system_stm32f3xx.o [1]
+AccelerometerDrv        0x200001cc    0x4  Data  Lc  stm32f3_discovery_accelerometer.o [1]
+BSP_ACCELERO_GetXYZ     0x08001f8d    0xe  Code  Gb  stm32f3_discovery_accelerometer.o [1]
+BSP_ACCELERO_Init       0x08001f65   0x28  Code  Gb  stm32f3_discovery_accelerometer.o [1]
+BSP_GYRO_GetXYZ         0x08001fdd    0xe  Code  Gb  stm32f3_discovery_gyroscope.o [1]
+BSP_GYRO_Init           0x08001fa5   0x38  Code  Gb  stm32f3_discovery_gyroscope.o [1]
+BSP_LED_Init            0x08000819   0x6c  Code  Gb  stm32f3_discovery.o [1]
+BSP_LED_Off             0x0800089b   0x16  Code  Gb  stm32f3_discovery.o [1]
+BSP_LED_On              0x08000885   0x16  Code  Gb  stm32f3_discovery.o [1]
+BSP_LED_Toggle          0x080008b1   0x14  Code  Gb  stm32f3_discovery.o [1]
+BSP_PB_GetState         0x08000965   0x14  Code  Gb  stm32f3_discovery.o [1]
+BSP_PB_Init             0x080008c5   0xa0  Code  Gb  stm32f3_discovery.o [1]
+BSP_examples            0x2000006c   0x78  Data  Gb  main.o [1]
+BUTTON_IRQn             0x08000d54    0x1  Data  Gb  stm32f3_discovery.o [1]
+BUTTON_PIN              0x08000d50    0x2  Data  Gb  stm32f3_discovery.o [1]
+BUTTON_PORT             0x20000104    0x4  Data  Gb  stm32f3_discovery.o [1]
+BusFault_Handler        0x08002333    0x2  Code  Gb  stm32f3xx_it.o [1]
+COMPASSACCELERO_IO_ITConfig
+                        0x08000c67   0x44  Code  Gb  stm32f3_discovery.o [1]
+COMPASSACCELERO_IO_Init
+                        0x08000bf5   0x72  Code  Gb  stm32f3_discovery.o [1]
+COMPASSACCELERO_IO_Read
+                        0x08000cdd   0x38  Code  Gb  stm32f3_discovery.o [1]
+COMPASSACCELERO_IO_Write
+                        0x08000cab   0x32  Code  Gb  stm32f3_discovery.o [1]
+CSTACK$$Base            0x200001e0          --   Gb  - Linker created -
+CSTACK$$Limit           0x200021e0          --   Gb  - Linker created -
+DebugMon_Handler        0x08002339    0x2  Code  Gb  stm32f3xx_it.o [1]
+DemoIndex               0x20000068    0x1  Data  Gb  main.o [1]
+EXTI0_IRQHandler        0x08002341    0x6  Code  Gb  stm32f3xx_it.o [1]
+Error_Handler           0x0800162b   0x10  Code  Gb  main.o [1]
+GYRO_IO_Init            0x08000a79   0x6e  Code  Gb  stm32f3_discovery.o [1]
+GYRO_IO_Read            0x08000b67   0x80  Code  Gb  stm32f3_discovery.o [1]
+GYRO_IO_Write           0x08000ae7   0x80  Code  Gb  stm32f3_discovery.o [1]
+GYRO_MEMS_Test          0x08001e57   0x20  Code  Gb  mems.o [1]
+GYRO_ReadAng            0x08001e79   0xda  Code  Lc  mems.o [1]
+GyroscopeDrv            0x200001d0    0x4  Data  Lc  stm32f3_discovery_gyroscope.o [1]
+HAL_Delay               0x08001b11   0x18  Code  Wk  stm32f3xx_hal.o [1]
+HAL_GPIO_EXTI_Callback  0x080015a5   0x1a  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x08000eeb   0x10  Code  Gb  stm32f3xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x08000d59  0x172  Code  Gb  stm32f3xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x08000ecb    0xe  Code  Gb  stm32f3xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x08000ee3    0x8  Code  Gb  stm32f3xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08000ed9    0xa  Code  Gb  stm32f3xx_hal_gpio.o [1]
+HAL_GetTick             0x0800080d    0xc  Code  Wk  stm32f3xx_hal.o [1]
+HAL_I2C_DeInit          0x0800022b   0x30  Code  Gb  stm32f3xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x08000595    0x6  Code  Gb  stm32f3xx_hal_i2c.o [1]
+HAL_I2C_Init            0x08000189   0xa2  Code  Gb  stm32f3xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read        0x080003e5  0x19e  Code  Gb  stm32f3xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write       0x0800025b  0x184  Code  Gb  stm32f3xx_hal_i2c.o [1]
+HAL_I2C_MspDeInit       0x0800080b    0x2  Code  Wk  stm32f3xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x08000809    0x2  Code  Wk  stm32f3xx_hal_i2c.o [1]
+HAL_IncTick             0x08002349   0x10  Code  Wk  stm32f3xx_hal.o [1]
+HAL_Init                0x0800163d   0x20  Code  Gb  stm32f3xx_hal.o [1]
+HAL_InitTick            0x08001b29   0x2c  Code  Wk  stm32f3xx_hal.o [1]
+HAL_MspInit             0x08001661    0x2  Code  Wk  stm32f3xx_hal.o [1]
+HAL_NVIC_EnableIRQ      0x08000f89    0xc  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08000f37   0x52  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08000f1d   0x1a  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x08001953  0x13a  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08001a8d   0x3a  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08001665  0x2ee  Code  Gb  stm32f3xx_hal_rcc.o [1]
+HAL_SPI_DeInit          0x08001097   0x28  Code  Gb  stm32f3xx_hal_spi.o [1]
+HAL_SPI_GetState        0x080013db    0x6  Code  Gb  stm32f3xx_hal_spi.o [1]
+HAL_SPI_Init            0x08000fdd   0xba  Code  Gb  stm32f3xx_hal_spi.o [1]
+HAL_SPI_MspDeInit       0x0800163b    0x2  Code  Wk  stm32f3xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x0800146f    0x2  Code  Wk  stm32f3xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                        0x080010bf  0x31c  Code  Gb  stm32f3xx_hal_spi.o [1]
+HAL_SYSTICK_Config      0x08000f9d   0x22  Code  Gb  stm32f3xx_hal_cortex.o [1]
+HardFault_Handler       0x0800232f    0x2  Code  Gb  stm32f3xx_it.o [1]
+I2C_Flush_TXDR          0x0800068d   0x1c  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0800077b   0x64  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2C_RequestMemoryRead   0x08000617   0x70  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite  0x080005a5   0x72  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2C_TransferConfig      0x080007df   0x20  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x080006a9   0x48  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                        0x0800072f   0x32  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x080006f7   0x38  Code  Lc  stm32f3xx_hal_i2c.o [1]
+I2Cx_Init               0x08000979   0x72  Code  Lc  stm32f3_discovery.o [1]
+I2cHandle               0x20000170   0x4c  Data  Lc  stm32f3_discovery.o [1]
+I2cxTimeout             0x200001bc    0x4  Data  Gb  stm32f3_discovery.o [1]
+L3GD20_DeInit           0x08001b7f    0x2  Code  Gb  l3gd20.o [1]
+L3GD20_DisableIT        0x08001c41   0x30  Code  Gb  l3gd20.o [1]
+L3GD20_EnableIT         0x08001c07   0x2e  Code  Gb  l3gd20.o [1]
+L3GD20_FilterCmd        0x08001c95   0x24  Code  Gb  l3gd20.o [1]
+L3GD20_FilterConfig     0x08001c71   0x24  Code  Gb  l3gd20.o [1]
+L3GD20_INT1InterruptConfig
+                        0x08001bbd   0x4a  Code  Gb  l3gd20.o [1]
+L3GD20_Init             0x08001b55   0x2a  Code  Gb  l3gd20.o [1]
+L3GD20_LowPower         0x08001bab    0xa  Code  Gb  l3gd20.o [1]
+L3GD20_ReadID           0x08001b81    0xc  Code  Gb  l3gd20.o [1]
+L3GD20_ReadXYZAngRate   0x08001cc9   0xc0  Code  Gb  l3gd20.o [1]
+L3GD20_RebootCmd        0x08001b8d   0x1e  Code  Gb  l3gd20.o [1]
+L3gd20Drv               0x20000000   0x34  Data  Gb  l3gd20.o [1]
+LED_PIN                 0x08000d40   0x10  Data  Gb  stm32f3_discovery.o [1]
+LED_PORT                0x200000e4   0x20  Data  Gb  stm32f3_discovery.o [1]
+LSM303DLHC_AccClickITEnable
+                        0x0800212f   0x40  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccDeInit    0x08002011    0x2  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccFilterCmd
+                        0x0800204d   0x10  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccFilterConfig
+                        0x0800203b   0x12  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccInit      0x08001ff5   0x1c  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccReadID    0x08002013   0x12  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccReadXYZ   0x0800206d   0xc2  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccRebootCmd
+                        0x08002025   0x16  Code  Gb  lsm303dlhc.o [1]
+LSM303DLHC_AccZClickITConfig
+                        0x0800216f   0x36  Code  Gb  lsm303dlhc.o [1]
+Lsm303dlhcDrv           0x20000034   0x34  Data  Gb  lsm303dlhc.o [1]
+MemManage_Handler       0x08002331    0x2  Code  Gb  stm32f3xx_it.o [1]
+NMI_Handler             0x0800232d    0x2  Code  Gb  stm32f3xx_it.o [1]
+PendSV_Handler          0x0800233b    0x2  Code  Gb  stm32f3xx_it.o [1]
+Region$$Table$$Base     0x0800231c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800232c          --   Gb  - Linker created -
+SPI_WaitFlagStateUntilTimeout
+                        0x080013e1   0x8e  Code  Lc  stm32f3xx_hal_spi.o [1]
+SPIx_Init               0x080009eb   0x8e  Code  Lc  stm32f3_discovery.o [1]
+SVC_Handler             0x08002337    0x2  Code  Gb  stm32f3xx_it.o [1]
+SpiHandle               0x20000108   0x64  Data  Lc  stm32f3_discovery.o [1]
+SpixTimeout             0x2000016c    0x4  Data  Gb  stm32f3_discovery.o [1]
+SysTick_Handler         0x0800233d    0x4  Code  Gb  stm32f3xx_it.o [1]
+SystemCoreClock         0x200001c0    0x4  Data  Gb  system_stm32f3xx.o [1]
+SystemInit              0x080021a5   0x52  Code  Gb  system_stm32f3xx.o [1]
+ThresholdHigh           0x200001d8    0x2  Data  Gb  mems.o [1]
+ThresholdLow            0x200001da    0x2  Data  Gb  mems.o [1]
+Toggle_Leds             0x080015c5   0x66  Code  Gb  main.o [1]
+UsageFault_Handler      0x08002335    0x2  Code  Gb  stm32f3xx_it.o [1]
+UserPressButton         0x2000006a    0x1  Data  Gb  main.o [1]
+__cmain                 0x08002359         Code  Gb  cmain.o [5]
+__exit                  0x08002389   0x14  Code  Gb  exit.o [6]
+__iar_close_ttio        0x08002299   0x2e  Code  Gb  iarttio.o [6]
+__iar_data_init3        0x080022d1   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x080022f9         Code  Gb  fpinit_M.o [4]
+__iar_lookup_ttioh      0x080022c9    0x8  Code  Gb  XShttio.o [3]
+__iar_lz77_init_single3
+                        0x08002221   0x78  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x080023ad         Code  Gb  cstartup_M.o [5]
+__iar_ttio_handles      0x200001c4    0x8  Data  Lc  XShttio.o [3]
+__low_level_init        0x08002373    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f303xc.o [1]
+_call_main              0x08002365         Code  Gb  cmain.o [5]
+_exit                   0x0800237d         Code  Gb  cexit.o [5]
+_main                   0x0800236f         Code  Gb  cmain.o [5]
+aPLLMULFactorTable      0x08001af0   0x10  Data  Gb  stm32f3xx_hal_rcc.o [1]
+aPredivFactorTable      0x08001b00   0x10  Data  Gb  stm32f3xx_hal_rcc.o [1]
+exit                    0x08002377    0x4  Code  Gb  exit.o [3]
+k                       0x20000069    0x1  Data  Gb  main.o [1]
+main                    0x08001471  0x134  Code  Gb  main.o [1]
+uwTick                  0x200001d4    0x4  Data  Gb  stm32f3xx_hal.o [1]
+
+
+[1] = F:\C_Workspace\Projects\STM32Cube_FW_F3_V1.6.0\Projects\STM32F3-Discovery\Examples\BSP\EWARM\STM32F3-Discovery\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  9 386 bytes of readonly  code memory
+    162 bytes of readonly  data memory
+  8 668 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
